@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"demsayelectronics_encoderwithtimer\startup_stm32f407xx.o"
+"demsayelectronics_encoderwithtimer\main.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_it.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_msp.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_timebase_tim.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_tim.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_tim_ex.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_rcc.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_rcc_ex.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_flash.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_flash_ex.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_flash_ramfunc.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_gpio.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_dma_ex.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_dma.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_pwr.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_pwr_ex.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_cortex.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal.o"
+"demsayelectronics_encoderwithtimer\stm32f4xx_hal_exti.o"
+"demsayelectronics_encoderwithtimer\system_stm32f4xx.o"
+--strict --scatter "DemsayElectronics_EncoderwithTimer\DemsayElectronics_EncoderwithTimer.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "DemsayElectronics_EncoderwithTimer.map" -o DemsayElectronics_EncoderwithTimer\DemsayElectronics_EncoderwithTimer.axf
